@@ -1,0 +1,4 @@
+interface:
+  display_name: "KarmenLoop Inbox Triage"
+  short_description: "Inbox Triage with reproducible local checks"
+  default_prompt: "Use $karmen-inbox-triage to triage this inbox export using a 24-hour response target."

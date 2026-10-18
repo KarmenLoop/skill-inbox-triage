@@ -1,0 +1,23 @@
+{
+  "now": "2026-10-19T12:00:00+00:00",
+  "sla_hours": 24,
+  "vip_senders": [
+    "partner@example.com"
+  ],
+  "messages": [
+    {
+      "id": "m1",
+      "sender": "partner@example.com",
+      "received_at": "2026-10-19T10:00:00Z",
+      "status": "open",
+      "needs_reply": true
+    },
+    {
+      "id": "m2",
+      "sender": "reader@example.com",
+      "received_at": "2026-10-17T10:00:00Z",
+      "status": "open",
+      "needs_reply": true
+    }
+  ]
+}
