@@ -4,7 +4,7 @@
 
 不用连接邮箱，也能先把导出的邮件排出回复顺序。工具根据邮件时间、回复状态、重要联系人和响应时限，说明哪些事项需要关注。
 
-[下载 v0.2.1](https://github.com/KarmenLoop/skill-inbox-triage/releases/tag/v0.2.1) · [完整教程](docs/tutorial.zh-CN.md) · [输入参考（英文）](docs/INPUT.md) · [反馈问题](https://github.com/KarmenLoop/skill-inbox-triage/issues)
+[下载 v0.2.1](https://github.com/KarmenLoop/skill-inbox-triage/releases/tag/v0.2.1) · [完整教程](docs/tutorial.zh-CN.md) · [输入参考](docs/input.zh-CN.md) · [反馈问题](https://github.com/KarmenLoop/skill-inbox-triage/issues)
 
 ## 能做什么
 
@@ -41,7 +41,7 @@ python3 install.py --host agents
 
 把邮件改为 waiting 或 closed 后比较队列，再调整响应时限检查逾期变化。导出数据中的状态不等于已经更新真实邮箱。
 
-准备新输入前可查看[字段约定（英文）](docs/INPUT.md)。工具只依赖 Python 标准库，本身不需要模型账号、API 密钥或网络。使用 AI 宿主时，宿主有自己的数据与权限设置。
+准备新输入前可查看[字段约定](docs/input.zh-CN.md)。工具只依赖 Python 标准库，本身不需要模型账号、API 密钥或网络。使用 AI 宿主时，宿主有自己的数据与权限设置。
 
 ## 常见问题
 
@@ -52,7 +52,7 @@ python3 install.py --host agents
 ## 文档与支持
 
 - [下载、安装、配置、练习、升级与卸载](docs/tutorial.zh-CN.md)
-- [输入输出约定](docs/INPUT.md)与[兼容性说明](docs/COMPATIBILITY.md)（英文参考）
+- [输入输出约定](docs/input.zh-CN.md)与[兼容性说明](docs/COMPATIBILITY.md)（英文参考）
 - [更新记录](CHANGELOG.md)、[参与贡献](CONTRIBUTING.md)、[支持](SUPPORT.md)和[安全反馈](SECURITY.md)
 
 ## 许可证
