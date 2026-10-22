@@ -3,7 +3,7 @@ name: karmen-inbox-triage
 description: "Sort message exports into reply, review, and waiting queues. Use when a user wants to prioritize an inbox or prepare a reply queue."
 metadata:
   author: KarmenLoop
-  version: "0.2.0"
+  version: "0.2.1"
 ---
 
 # Inbox Triage
